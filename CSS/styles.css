@@ -1,0 +1,211 @@
+/***************************TAG SELECTORS***************************/
+
+body{
+    margin:0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color:#0D4C92;
+    
+    margin: 0px auto 0 auto;
+    padding-top: 100px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color:#0D4C92; 
+}
+
+h3{
+    color:#59C1BD;
+}
+
+hr{
+    
+    border-style: dotted none none;
+    border-color: #59C1BD ;
+    border-width: 7px;
+
+    height: 0px;
+    width: 20%;
+    margin-bottom: 3rem;
+}
+
+p{ word-spacing: 0.28rem;}
+
+a:link {text-decoration: none;}
+
+/**************************CLASS SELECTORS**************************/
+
+        /****************Top container****************/
+.top-container{
+    background-color:#effafc;
+
+    background-image: url(misty-ocean-background-modif.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    border: solid 0px;
+    
+    width: 100%;  
+    text-align: center;
+
+    position: relative;
+}
+
+.h2-top-container{
+    padding-bottom: 250px;
+    margin-bottom: 0px;
+}
+
+
+        /****************Navigation bar****************/
+.nav-bar{
+    height: auto;
+    width: 100%;
+    background-color:#effafc;
+    position:fixed;
+    top:0;
+    text-align: left;
+}
+.div-nav-bar{
+    display: inline-block;
+    width: auto;
+   
+}
+.h2-nav-bar{
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    margin: 0;
+    font-size:medium;
+}
+.h2-nav-bar:hover {
+    background-color: #c0e3e9;
+}
+
+.drop-button{
+    border: solid 0px;
+    background-color:#effafc;
+    padding: 0;
+    
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 12.5rem;
+    background-color:#effafc;
+    box-shadow: 0px 4px 4px 0px #effafc;    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+        /****************Middle container****************/
+
+                /****************Hello****************/                
+.middle-container{
+   background-color: #CFF5E7;  
+}
+
+.photo-cv{
+    width: 200px;
+    position: relative;
+    bottom: 100px;
+}
+.profile{
+    width: 50%;
+    margin: 0 auto 0px auto;
+    line-height: 2;
+}
+                /****************My Skills and experiences.****************/
+
+#skill-title{
+    margin-top: 0;
+}
+
+.prog-circle-image{
+    width:10rem;
+    margin: 2rem 2rem auto auto;
+}
+.bridge-circle-image{
+    width:10rem;
+    margin: 2rem auto auto 2rem;
+}
+.language-circle-image{
+    width:10rem;
+    margin: 2rem 2rem auto auto;
+}
+.personal-square-image{
+    width:10rem;
+    margin: 2rem 2rem auto auto;
+}
+.circle-images:hover{
+    transform: scale(1.1);
+}
+.skills-titles{
+    width:fit-content
+}
+.skills-titles:hover{
+    transform: scale(1.1);
+    width:fit-content
+}
+.skill-row{
+    width: 50%;
+
+    margin: 60px auto 60px auto;
+    text-align: left;
+    line-height: 2;
+}
+#last-skill-row{
+    margin-bottom: 100px;
+}
+
+                /****************Personal information****************/
+.personal-row{
+    width: 50%;
+
+    margin: 60px auto 60px auto;
+    text-align: left;
+    line-height: 2;
+}
+.personal-circle-image{
+    width:10rem;
+    margin: 2rem 2rem auto auto;
+}
+
+                /****************Get in touch****************/
+
+#contact-link{
+    padding: 1.5rem 0 3rem 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+#contact-link:hover{
+    transform: scale(1.1);
+}
+
+        /****************bottom container****************/
+.bottom-container{
+    background-color: #A0E4CB;
+}
+#rights{
+    padding-top: 1rem;
+    margin-top: 0;
+}
+#ref-cred{
+    font-size: smaller;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+
+/***************************ID SELECTORS***************************/

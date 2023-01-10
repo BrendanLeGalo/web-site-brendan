@@ -1,0 +1,184 @@
+/***************************TAG SELECTORS***************************/
+
+body{
+    margin:0px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color:#0D4C92;
+    
+    margin: 0px auto 0 auto;
+    padding-top: 100px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color:#0D4C92; 
+}
+
+h3{
+    color:#59C1BD;
+}
+
+p{ word-spacing: 0.28rem;}
+
+
+
+/**************************CLASS SELECTORS**************************/
+
+        /****************Navigation bar****************/
+.nav-bar{
+    height: auto;
+    width: 100%;
+    background-color:#effafc;
+    position:fixed;
+    top:0;
+    text-align: left;
+    z-index: 100;
+}
+.nav-bar a:link {text-decoration: none;}
+.div-nav-bar{
+    display: inline-block;
+    width: auto;
+   
+}
+.h2-nav-bar{
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    margin: 0;
+    font-size:medium;
+}
+.h2-nav-bar:hover {
+    background-color: #c0e3e9;
+}
+
+.drop-button{
+    border: solid 0px;
+    background-color:#effafc;
+    padding: 0;
+    
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 12.5rem;
+    background-color:#effafc;
+    box-shadow: 0px 4px 4px 0px #effafc;    
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+        /****************Top containers****************/
+.section-top-web-dev{
+    background-color:#effafc;
+
+    background-image: url(line-code.PNG);
+    background-size: cover;
+    background-position: left;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    border: solid 0px;
+    
+    width: 100%;  
+    height: 20rem;
+}
+.section-top-civ-eng{
+    background-color:#effafc;
+
+    background-image: url(design-bercy.PNG);
+    background-size:cover;
+    background-position: top;
+
+    text-align: center;
+
+    border: solid 0px;
+    
+    width: 100%;  
+    height: 20rem;
+}
+.section-top-language{
+    background-color:#effafc;
+
+    background-image: url(capital-cities.jpg);
+    background-size:cover;
+    background-position: top;
+
+    text-align: center;
+
+    border: solid 0px;
+    
+    width: 100%;  
+    height: 20rem;
+}
+
+.section-image{
+    width: 12.5rem;
+    position: relative;
+    top: 13.75rem
+    
+}
+        /****************Middle containers****************/
+             
+.middle-containers{
+   background-color: #CFF5E7;  
+}
+
+
+.middle-section{
+    width: 80%;
+    margin: 0 auto 50px auto;
+    line-height: 2;
+}
+.sub-title{
+    margin-top: 0;
+    padding-top: 8rem;
+}
+.text-content{
+    text-align: left;
+    font-size: small;
+}
+
+.div-cv{
+    padding-left: 1.5rem;    
+}
+.ul-cv{
+    border-left-style: solid;
+    border-left-color: #0D4C92;
+    border-left-width: 1px;
+    margin-left: 2rem;
+    padding-left: 2rem;  
+}
+#li-bar{
+    border-left-style: solid;
+    border-left-color: #0D4C92;
+    border-left-width: 1px;
+    padding-left: 0.5rem;
+}
+
+.table-language{
+    margin-left: 2rem;
+}
+
+#last-middle-section{
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+        /****************Bottom containers****************/
+.bottom-container{
+    background-color: #A0E4CB;
+}
+#rights{
+    padding: 1rem 0 3rem 0;
+    margin: 0;
+}
